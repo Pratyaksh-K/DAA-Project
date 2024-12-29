@@ -98,7 +98,7 @@ Efficiency Analysis
 
 The efficiency of Dijkstra's algorithm depends on the choice of the data structure used to maintain the dist array. An efficient approach is to use a MIN-HEAP to store the dist array. With a min-heap, the minimum distance will always be at the top, eliminating the need to traverse the array to find the minimum distance, thereby saving time.
 
-[Code for Dijkstra's Algorithm](Dijkstras_Algorithm.cpp)
+[Code for Dijkstra's Algorithm](Codes/Dijkstras_Algorithm.cpp)
 
 
 __________________________________________________________________________________________________
@@ -133,7 +133,7 @@ Merge Sort falls under the efficiency category of O(NlogN).
 Below is a sample code for MERGE SORT, in which user can enter any number of elements ranging in the limit range if INT data type.
 
 
-[Code for Merge Sort](Merge_sort.cpp)
+[Code for Merge Sort](Codes/Merge_sort.cpp)
 
 
 Since the Operation required is Sorting, there are more sorting algorithms too, which are given below
@@ -152,7 +152,7 @@ Design Technique:
 Efficiency 
 Bubble sort falls under O(N^2) category.
 
-[Code for Bubble Sort](Bubble_sort.cpp)
+[Code for Bubble Sort](Codes/Bubble_sort.cpp)
 
 
 Selection Sort
@@ -169,7 +169,7 @@ Greedy (Always pick the smallest/largest element).
 Efficiency 
 Selection sort falls under O(N^2) category.
 
-[Code for Selection Sort](selection_sort.cpp)
+[Code for Selection Sort](Codes/selection_sort.cpp)
 
 
 
@@ -188,7 +188,7 @@ Efficiency
 Insertion sort falls under O(N^2) category.
 
 
-[Code for Insertion Sort](Insertion_sort.cpp)
+[Code for Insertion Sort](Codes/Insertion_sort.cpp)
 
 
 
@@ -209,7 +209,7 @@ Efficiency
 Quick sort falls under O(Nlog(N)) category.
 
 
-[Code for Quick Sort](quick_sort.cpp)
+[Code for Quick Sort](Codes/quick_sort.cpp)
 
 
 __________________________________________________________________________________________________
@@ -255,15 +255,15 @@ Below is a sample for Kruskal's Algorithm which uses merge sort in which user ca
 
 Union-find functions are also crucial part while executing Kruskal's Algorithm
 
-[Code for UNION-FIND](Union_find.cpp)
+[Code for UNION-FIND](Codes/Union_find.cpp)
 
-[Code for Kruskal's Algorithm](Kruskal's_Algorithm.cpp)
+[Code for Kruskal's Algorithm](Codes/Kruskal's_Algorithm.cpp)
 
 
 Prim's Algorithm is yet another algorithm which can be used to generate Minimum spanning tree. It takes a node as source aswell.
 
 
-[Code for Prim's Algorithm](Prim's_algorithm.cpp)
+[Code for Prim's Algorithm](Codes/Prim's_algorithm.cpp)
 
 
 __________________________________________________________________________________________________
@@ -276,7 +276,7 @@ Municipality needs a system to store all the data this park. This system must be
 
 
 
-[Code for E-Park Management System](E_park_Management.cpp)
+[Code for E-Park Management System](Codes/E_park_Management.cpp)
 
 
 
@@ -330,9 +330,9 @@ Replace the root with the last element in the array/tree.
 Restore the heap property by heapifying the tree again.
 
 
-[Code for Heapification](Heapification.cpp)
+[Code for Heapification](Codes/Heap/Heapification.cpp)
 
-[Code for Heap Sort](Heap_Sort.cpp)
+[Code for Heap Sort](Codes/Heap/Heap_Sort.cpp)
 
 
 __________________________________________________________________________________________________
@@ -362,7 +362,7 @@ Worst-case time complexity: O(n * m) (This happens when the pattern does not mat
 Best-case time complexity: O(n) (If the pattern matches early or the first comparison is successful).
 
 
-[Code for Heap Sort](BFSS.cpp)
+[Code for Heap Sort](Codes/BFSS/BFSS.cpp)
 
 
 __________________________________________________________________________________________________
@@ -379,7 +379,7 @@ QUEUE
 Principle : Queue data structure is a FIFO type i.e. First In First Out, that is, priority is given to the candidiate who came first.
 
 
-[Code for Heap Sort](candidiate_queue.cpp)
+[Code for Heap Sort](Codes/candidiate_queue.cpp)
 
 
 
@@ -405,7 +405,7 @@ Efficiency
 Warshall has a Cubic efficiency. O(N^3)
 
 
-[Code for Warshall's Algorithm ](warshall's_algorithm.cpp)
+[Code for Warshall's Algorithm ](Codes/warshall's_algorithm.cpp)
 
 
 __________________________________________________________________________________________________
